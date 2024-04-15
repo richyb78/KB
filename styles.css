@@ -1,0 +1,117 @@
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+html, body {
+    font-family: Roboto;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+.container {
+    background-image: url("https://images.pexels.com/photos/1323550/pexels-photo-1323550.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: cover;
+}
+
+/*navigation menu */
+.mainnav {
+    background-color: black;
+    overflow: auto;
+}
+.mainnav a {
+    float: right;
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+h1 {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+    top: 13px;
+    float: left;
+    padding-left: 15px;
+    margin: 0;
+    flex-wrap:
+}
+.mainnav a:hover {
+    background-color: white;
+    color:black;
+}
+/* End of navigation menu */
+
+table, th, td {
+    border: 1px solid;
+    padding: 10px;
+    border-collapse: collapse;
+    margin: 50px;
+}
+
+th {
+    background-color: grey;
+    border-color: black;
+}
+
+.quote {
+    font-size: 150px;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 800;
+    padding-top: 110px;
+    padding-bottom: 112px;
+    padding-left: 80px;
+    padding-right: 80px;
+    margin: 0px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    padding-left: 30px;
+    position: sticky;
+    top: 100vh;
+}
+#mail {
+    width: 40px;
+    float: right;
+    padding-right: 10px;
+}
+
+#insta {
+    width: 30px;
+    float: right;
+    padding-left: 20px;
+    padding-right: 30px;
+}
+h2 {
+    font-size: 90px;
+    color: white;
+    width: 100%;
+    background-image: url("https://images.pexels.com/photos/1323550/pexels-photo-1323550.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: cover;
+    background-position: left;
+    margin-top: 0%;
+    padding: 20px;
+    text-align: center;
+    
+}
+caption {
+    text-align: center;
+    padding: 7px;
+    color: white;
+    background-color: black;
+    border: 1px solid;
+    border-color: black;
+    font-size: 20px;
+    font-weight: 700;
+    align-items: ;
+
+}
+
+
